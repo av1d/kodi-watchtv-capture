@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.watchtv"
+       name="Watch TV"
+       version="1.0.0"
+       provider-name="av1d">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+
+  <extension point="xbmc.python.script" library="default.py"/>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Watch the capture device live</summary>
+    <description lang="en_GB">Start FFmpeg, watch TV, and stop capture when playback stops.</description>
+    <platform>linux</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
